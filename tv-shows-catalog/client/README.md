@@ -8,7 +8,6 @@ Application cliente (SPA) affichant un catalogue de séries TV.
 - Voir le détail d'une série (Exemple : [Rick et Morty](http://localhost:5173/tv-shows/216/rick-and-morty)).
 
 ## Prérequis
-
 - Node.js LTS ;
 - (Optionnel, bonus) (Recommandé en production) Un serveur Web (Nginx recommandé, Apache possible).
 
