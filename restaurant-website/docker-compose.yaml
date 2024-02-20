@@ -1,2 +1,14 @@
 # Définir cette configuration Compose afin de lancer l'application
 # Grilli en production.
+
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - 80:80
+  php:
+    image: php:8.3-fpm
+    volumes:
+      - .:/var/www/html
