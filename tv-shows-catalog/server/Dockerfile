@@ -1,5 +1,8 @@
-
 FROM node:lts
+
+ARG API_BASE_URL
+
+ENV API_BASE_URL=$API_BASE_URL
 
 WORKDIR /usr/src/app
 
