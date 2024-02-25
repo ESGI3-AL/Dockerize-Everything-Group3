@@ -3,7 +3,7 @@
 
 FROM php:8.3-fpm
 
-ENV APP_ENV=prod
+ENV APP_ENV_PROD=$APP_ENV_PROD
 
 # Installation des prérequis
 RUN apt-get update && apt-get install -y \
